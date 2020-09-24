@@ -1,0 +1,65 @@
+.button-subscribe:link,
+.button-subscribe:visited {
+    text-decoration: none;
+    background: #e67e22;
+    padding: 10px 20px;
+    font-size: 1em;
+    font-weight: 400;
+    color: #fff;
+    text-transform: uppercase;
+    transition: background-color 0.2s;
+}
+
+.button-subscribe:hover,
+.button-subscribe:active {
+    background-color: #cf6d17;
+}
+
+.button-menu:link,
+.button-menu:visited {
+    text-decoration: none;
+    padding-bottom: 10px;
+    font-size: 0.9em;
+    font-weight: 300;
+    color: #fff;
+    text-transform: uppercase;
+    transition: border-bottom 0.2s;
+}
+
+.button-menu:hover,
+.button-menu:active {
+    border-bottom: 2px solid #e67e22;
+}
+
+.button-explore:link,
+.button-explore:visited {
+    text-decoration: none;
+    padding: 10px 30px;
+    margin-top: 10px;
+    font-size: 0.9em;
+    font-weight: 300;
+    color: #e67e22;
+    border: 1px solid #e67e22;
+    border-radius: 30px;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.button-explore:hover,
+.button-explore:active {
+    background-color: #e67e22;
+    color: #fff;
+}
+
+.feedback-button {
+    padding: 10px 80px;
+    background: #fff;
+    color: #e67e22;
+    border: 1px solid #e67e22;
+    transition: color 0.2s, background-color 0.2s;
+}
+
+.feedback-button:hover,
+.feedback-button:active {
+    background-color: #e67e22;
+    color: #fff;
+}

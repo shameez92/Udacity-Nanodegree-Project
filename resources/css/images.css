@@ -1,0 +1,71 @@
+/*---CSS customization for Image files---*/
+
+/*---Blog Logo---*/
+.logo {
+    height: 110px;
+    width: 20%;
+    margin-left: 10px;
+    margin-top: 10px ;
+    border-radius: 100%;
+}
+
+.tribe-image {
+    background-size: cover;
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    padding: 100px;
+    opacity: 1;
+}
+
+/*---Images of different tribes in the Home page---*/
+.manali-tribe-image {
+    background-image: url(images/manali-tribe.jpg);
+}
+
+.wayanad-tribe-image {
+    background-image: url(images/wayanad-tribe.jpg);
+}
+
+.assam-tribe-image {
+    background-image: url(images/assam-tribe.jpg);
+}
+
+.odisha-tribe-image {
+    background-image: url(images/odisha-tribe.jpg);
+}
+
+.tribe-image:hover,
+.tribe-image:active {
+    opacity: 0.8;
+}
+
+/*---Author profile image---*/
+.profile-image {
+    border-radius: 50%;
+    max-width: 70%;
+    max-height: 150px;
+    margin-top: 10px;
+    transition: border 0.2s;
+}
+
+.profile-image:hover {
+    border: 3px solid #e67e22;
+}
+
+/*---Blog post image files---*/
+.photos-gallery {
+    width: 33.33%;
+    padding: 0 3px;
+    background-position: cover;
+    transition: transform 0.2s;
+}
+
+.picture-standalone {
+    width: 100%;
+}
+
+.photos-gallery:hover {
+    transform: scale(1.05);
+    border: 2px solid #e67e22;
+}
